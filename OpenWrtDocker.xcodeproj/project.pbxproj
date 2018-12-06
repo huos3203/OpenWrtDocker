@@ -8,17 +8,29 @@
 
 /* Begin PBXFileReference section */
 		848D219921B6CD1500240BA1 /* dco_entware_miwifi_R3D.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = dco_entware_miwifi_R3D.sh; sourceTree = "<group>"; };
-		848D219A21B6CD6800240BA1 /* entware_install_old.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = entware_install_old.sh; sourceTree = "<group>"; };
+		848D219A21B6CD6800240BA1 /* init.miui.rc */ = {isa = PBXFileReference; lastKnownFileType = text; path = init.miui.rc; sourceTree = "<group>"; };
 		848D219B21B6CD8900240BA1 /* opkg.conf */ = {isa = PBXFileReference; lastKnownFileType = text; path = opkg.conf; sourceTree = "<group>"; };
+		849A210821B8F847001F6F76 /* init.environ.rc */ = {isa = PBXFileReference; lastKnownFileType = text; path = init.environ.rc; sourceTree = "<group>"; };
+		849A210A21B8FAD2001F6F76 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		84F0B01A21B629AE00BEA107 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		849A210921B8FAA3001F6F76 /* Android系统环境 */ = {
+			isa = PBXGroup;
+			children = (
+				848D219A21B6CD6800240BA1 /* init.miui.rc */,
+				849A210821B8F847001F6F76 /* init.environ.rc */,
+				849A210A21B8FAD2001F6F76 /* README.md */,
+			);
+			path = "Android系统环境";
+			sourceTree = "<group>";
+		};
 		84F0B01321B6294F00BEA107 = {
 			isa = PBXGroup;
 			children = (
+				849A210921B8FAA3001F6F76 /* Android系统环境 */,
 				848D219B21B6CD8900240BA1 /* opkg.conf */,
-				848D219A21B6CD6800240BA1 /* entware_install_old.sh */,
 				848D219921B6CD1500240BA1 /* dco_entware_miwifi_R3D.sh */,
 				84F0B01A21B629AE00BEA107 /* README.md */,
 			);
